@@ -1,0 +1,1 @@
+import{a as e,i as t,o as n,r}from"./index-_V7Bdtlq.js";var i={base:`/product-plans`};const a={getAll:async e=>t(i.base,e),getDetail:async e=>t(`${i.base}/${encodeURIComponent(e)}`),create:async t=>e(i.base,t),update:async(e,t)=>n(`${i.base}/${encodeURIComponent(e)}`,t),remove:async e=>r(`${i.base}/${encodeURIComponent(e)}`)};export{a as t};
