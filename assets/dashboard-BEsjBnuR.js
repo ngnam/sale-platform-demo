@@ -1,0 +1,1 @@
+import{r as e}from"./index-DYE8AE99.js";const t={async summary(t){let n={};return t.preset&&(n.preset=t.preset),t.startUtc&&(n.startUtc=t.startUtc),t.endUtc&&(n.endUtc=t.endUtc),t.breakdown!==void 0&&(n.breakdown=t.breakdown),e(`/dashboard/summary`,n)}};export{t};
