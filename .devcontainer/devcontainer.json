@@ -1,0 +1,17 @@
+{
+  "name": "Vue 3 Dev for GitHub Pages",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "vue.volar",
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  }
+}
