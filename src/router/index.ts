@@ -3,7 +3,7 @@ import { useUserStore } from "@/store/user";
 import routes from "./router.config";
 
 export function createRouter() {
-  const router = _createRouter({ history: createWebHistory(), routes });
+  const router = _createRouter({ history: createWebHistory(import.meta.env.BASE_URL), routes });
   router.beforeEach(async (to) => {
     const userStore = useUserStore();
     const requiresAuth = to.meta?.requiresAuth === true;
