@@ -1,0 +1,1 @@
+import{a as e,i as t,n,r}from"./index-DsGbIOt6.js";var i={base:`/product-plans`};const a={getAll:async e=>r(i.base,e),getDetail:async e=>r(`${i.base}/${encodeURIComponent(e)}`),create:async e=>t(i.base,e),update:async(t,n)=>e(`${i.base}/${encodeURIComponent(t)}`,n),remove:async e=>n(`${i.base}/${encodeURIComponent(e)}`)};export{a as t};
